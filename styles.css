@@ -1,0 +1,133 @@
+@charset "utf-8";
+*{
+	box-sizing: border-box;
+}
+body {
+	background-color: #D9D9D9;
+	color: #343434;
+	}
+
+#wrapper {
+	border-radius: 25px;
+	background-color: #9A9A9A;
+	max-width: 1500px;
+	margin: auto;
+		}
+h1 {
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 2.5em;
+	font-display: block;
+	font-style: normal;
+	font-weight: 700;
+	text-align: center;
+	}
+h2 {
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-style: normal;
+	font-weight: 600;
+	text-align: center;
+	font-size: 2em;
+	color: #BF0237;
+	}
+
+header {
+	color: #343434;
+   	border: solid #000000;
+	border-width: thin;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+   	height: 300px;
+	background-image:url("images/banner.jpg")
+		}
+header img{
+			margin-right: 600px;
+			margin-left: 1300px;
+			margin-top: 50px;
+}
+	
+
+main nav{
+    background-color:#dddddd;
+
+			}
+main ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+	overflow: hidden;
+	clear: all;
+	align-items: center;
+	position: sticky;
+	border: medium;
+	border-color: #000011;
+	border-style: solid;
+		}
+main li a {
+	display: block;
+    background-color: #dddddd;
+	padding: 18px 20px;
+    text-decoration: none;
+	color: #919191;
+	text-align: center;
+		
+	}
+main li a:hover {
+		background-color: #111;
+	}
+
+main li a:visited 	{
+	color: #919191;
+}
+
+main li a:active	{
+    background-color: greenyellow;		
+		}
+
+ main li     {
+	float: left;
+	border-right: 5px solid #bbb;
+	 list-style-type: none;
+		}
+
+main  {
+	background-color: #72BBFF;
+	border-color: #333333;
+	border: solid;
+	border-width: thin;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 0px;
+	padding-left: 2px;
+	width: 60%;
+	float: left;
+		}
+aside{
+	background-color: #7FDC03;
+	border-style: inset;
+	border-width: medium;
+	float: right;
+	width: 35%;
+		}
+section{
+	margin-left: 15px;
+	margin-right: 15px;
+	}
+footer{
+	clear: both;
+	height: 100px;
+	border: solid #000000;
+	border-width: medium;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	text-align: center;
+	color:#005C2A;
+	background-color: #D8CA00;
+	}	
+#mc_embed_signup{
+	margin-left: auto;
+	margin-right: auto;
+	background-color: darkturquoise;
+				}
+
+
+	    
